@@ -21,7 +21,6 @@ func ExecuteOperation(event events.APIGatewayProxyRequest) (events.APIGatewayPro
 
 }
 
-
 func main() {
 	lambda.Start(ExecuteOperation)
 }
